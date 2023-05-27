@@ -40,7 +40,7 @@ def parse_args():
     parser.add_argument(
         "--model_name_or_path",
         type=str,
-        default="./bert-base-chinese",
+        default="./chinese-bert-wwm",
         help="Path to pretrained model or model identifier from huggingface.co/models.",
         # required=True,
     )
